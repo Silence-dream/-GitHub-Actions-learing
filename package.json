@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "apidoc": "^0.25.0"
+  },
+  "apidoc": { 
+    "title": "接口文档", 
+    "url": "http://localhost:3000" 
+  },
+  "scripts": {
+    "aipdoc":"aipdoc -i public"
+  }
+}
