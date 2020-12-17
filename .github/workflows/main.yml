@@ -25,7 +25,7 @@ jobs:
         run: npm install
       # 打包
       - name: npm build
-        run: npm run build:prod
+        run: npm run build
       # 部署到阿里云
       - name: Deploy to Aliyun
         uses: easingthemes/ssh-deploy@v2.1.1
@@ -37,7 +37,7 @@ jobs:
           # 源目录，编译后生成的文件目录
           SOURCE: "./dist"
           # 服务器ip：换成你的服务器IP
-          REMOTE_HOST: "47.106.141.235"
+          REMOTE_HOST: "39.98.154.128"
           # 用户
           REMOTE_USER: "root"
           # 目标地址 你在服务器上部署代码的地方
